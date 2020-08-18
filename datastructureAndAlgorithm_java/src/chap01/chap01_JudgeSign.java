@@ -1,0 +1,33 @@
+package chap01;
+import java.util.Scanner;
+// 입력한 정숫값이 양수인지 음수인지 0인지 판단
+
+public class chap01_JudgeSign {
+	
+	public static void main(String[] args) {
+
+		Scanner stdIn = new Scanner(System.in);
+		
+		System.out.println("정수를 입력하세요.");
+		int n = stdIn.nextInt();
+		/*
+		if(n > 0) {
+			System.out.println("이 수는 양수입니다.");
+		}else if(n < 0) {
+			System.out.println("이 수는 음수 입니다.");
+		}else {
+			System.out.println("이 수는 0입니다.");
+		}
+		*/
+		
+		if(n == 1) {
+			System.out.println("이 수는 1 입니다.");
+		}else if(n == 2) {
+			System.out.println("이 수는 2 입니다.");
+		}else if(n == 3) {
+			System.out.println("이 수는 3 입니다.");
+		}else
+			; //공백문 - 아무것도 실행하지 않는 문장
+	}
+
+}
