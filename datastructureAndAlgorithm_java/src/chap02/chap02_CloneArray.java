@@ -10,16 +10,14 @@ public class chap02_CloneArray {
 		
 		b[3] = 0; // a를 복제한 b 요소 하나 변경
 		
-		int[] c = b;
-		
 		System.out.print("a = ");
 		for(int i = 0; i < a.length; i++) {
 			System.out.print(a[i]);
 		}
 		
 		System.out.print("\nb = ");
-		for(int i = 0; i < c.length; i++) {
-			System.out.print(c[i]);
+		for(int i = 0; i < b.length; i++) {
+			System.out.print(b[i]);
 		}
 		
 	}
